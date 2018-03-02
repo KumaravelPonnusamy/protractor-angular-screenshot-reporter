@@ -86,7 +86,7 @@
                 </div>
             </td>
             <td>
-              <div ng-if="!result.pending">
+              <div ng-if="!result.pending && !result.passed">
                 <button class="btn btn-default" data-toggle="modal" data-target="#imageModal{{$index}}">View Screenshot</button>
                 <!-- Screenshot Modal -->
                 <div class="modal fade" id="imageModal{{$index}}" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel{{$index}}">

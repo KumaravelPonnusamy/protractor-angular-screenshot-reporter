@@ -1,11 +1,11 @@
 {
-  "name": "protractor-angular-screenshot-reporter",
+  "name": "protractor-angularsecreenshot-reporter-alt",
   "version": "0.1.2",
   "description": "An npm module and which generates your Protractor test reports in HTML (angular) with screenshots",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcole/protractor-angular-screenshot-reporter"
+    "url": "git+https://github.com/bcole/protractor-angular-screenshot-reporter.git"
   },
   "dependencies": {
     "mkdirp": "~0.3.5",
@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/bcole/protractor-angular-screenshot-reporter/issues"
   },
-  "homepage": "https://github.com/bcole/protractor-angular-screenshot-reporter"
+  "homepage": "https://github.com/bcole/protractor-angular-screenshot-reporter",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
